@@ -1,0 +1,56 @@
+
+body{
+  margin: 0;
+  background-color: #1F2937;
+  color: white;
+}
+
+.grid-container{
+  display: flex;
+  justify-content: center;
+  margin: 0px;
+  padding: 50px;
+}
+
+.grid{
+  display: flex;
+  width: 480px;
+  height: 480px;
+  flex-wrap: wrap;
+  border: 5px solid white;
+}
+.cell{
+  background-color: white;
+  flex-shrink: 0;
+  box-sizing: border-box;
+}
+
+.control-container{
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+.reset-btn{
+  color: white;
+  padding: 10px 25px;
+  background-color: #3882F6;
+  border: none;
+  border-radius: 5px;
+}
+
+.slider{
+  display: flex;
+  flex-direction: column;
+}
+
+.colorPicker-container{
+  display: flex;
+  flex-direction: column;
+}
+.colorPicker{
+  border: none;
+  width: 100%;
+  background-color: #1F2937;
+  padding: 0;
+}
